@@ -16,7 +16,7 @@ s1 = Student()
 
 var s2 : Student?
 
-s2 = Student(sid: -2, snm: "sushmitha", email: "s@s.com")
+s2 = Student(sid: -2, snm: "sushmitha", email: "s..@s.com")
 
 if let s = s2
 {
@@ -26,6 +26,6 @@ s.printData()
 }
 
 var s3 : Student?
-s3 = Student(sid: 2, snm: "sush",email:"s@a.com")
+s3 = Student(sid: 2, snm: "sush",email:"s..@a.com")
 
 
